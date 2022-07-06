@@ -1,0 +1,45 @@
+link
+
+<link href="style.css" type="text/css" rel="stylesheet"/>
+.table {
+    border: 2px black solid;
+    border-collapse: separate;
+    margin: 100px 200px;
+
+
+Border
+
+.table {
+    border: 2px black solid;
+    border-collapse: separate;
+    margin: 100px 200px;
+    justify-content: center;
+    width: 50%;  
+}
+
+
+<div class="form">
+      <h1>Login In</h1>
+      <form>
+        <label for="username">Username:</label>
+        <input
+          id="username"
+          type="username"
+          name="username"
+          minlength="8"
+          maxlength="15"
+this is for form.
+i just made up those numbers 
+.form{
+    /* justify-content: center; */
+    text-align: center;  
+}
+
+label {
+    text-align: left;
+    white-space: pre-wrap;  
+}
+
+#submit {
+    margin-top: 10px; 
+}
